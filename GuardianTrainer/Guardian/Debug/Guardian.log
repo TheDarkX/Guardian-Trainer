@@ -1,0 +1,22 @@
+﻿Build started 20/11/2012 9:40:26 AM.
+     1>Project "C:\Users\E\Documents\Visual Studio 2010\Projects\Guardian\Guardian\Guardian.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Guardian.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D GUARDIAN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Form1.cpp Form2.cpp Form3.cpp Form4.cpp Form5.cpp Form6.cpp
+         Form1.cpp
+     1>Form1.cpp(398): error C2664: 'MessageBox' : cannot convert parameter 2 from 'const char [60]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Form1.cpp(2108): error C2664: 'GetModuleHandleW' : cannot convert parameter 1 from 'const char [11]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Form2.cpp
+         Form3.cpp
+         Form4.cpp
+         Form5.cpp
+         Form6.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\E\Documents\Visual Studio 2010\Projects\Guardian\Guardian\Guardian.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.87
